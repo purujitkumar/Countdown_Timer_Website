@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Countdown Timer</title>
+    </head>
+    <h1>Countdown Timer Website.</h1>
+    <style>
+         h2{
+        font-size: 50px;
+        }
+    </style>
+    <body style="background:#0cad37">
+            <h2>
+                <div style="height:15px;background:rgb(241, 15, 30);"></div>
+                <input type="text" id="userInput" placeholder="Enter your text here">
+                <button onclick="displayInput()">Display</button>
+                <p id="output"></p>
+                <script src="countdown.js"></script>
+            </h2>
+        <label for="countdownInput">Enter Countdown Duration (HH:MM:SS):</label>
+        <input type="text" id="countdownInput">
+        <button onclick="startCountdown()">Start Countdown</button>
+        <p id="countdown"></p>
+        <script src="countdown.js"></script>
+    </body>
+</html>
